@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Survey form</title>
+  </head>
+  <body>
+    <h1>Hotel Survey Form</h1>
+    <form>
+      <fieldset>
+        <!--fieldset is used to create that box typething that is given in 
+        form -->
+        <legend><b>Personal Details</b></legend>
+        <!-- legend uper beech me likha hota -->
+        <label>firstname<input type="text" /></label><br><br>
+        <label>lastname<input type="text" /></label>
+        <label>room number<input type="text" /></label><br><br>
+        <label>Date of checkin<input type="date"></label>
+        <label>room type</label>
+        <select name="room">
+          <option value="single">single</option>
+          <option value="double">double</option>
+          <option value="delux">delux</option>
+          <option value="suit">suit</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend><b>Contact detail</b></legend>
+        <label>Email<input type="email" /></label>
+        <label>Phone no.<input type="text" /></label><br /><r />
+        <label>Address</label>
+        <textarea name="address" style="height: 20px" width="25px;"> </textarea>
+      </fieldset>
+      <fieldset>
+        <legend><b>Feedback</b></legend>
+        
+        <label>double<input type="radio" name="radio" /></label>
+        <label>delux<input type="radio" name="radio" /></label>
+        <label>normal<input type="radio" name="radio" /></label>
+        <p><i>Breakfast type</i></p>
+        <label>complementry<input type="radio" name="radio" /></label>
+        <label>non complementry<input type="radio" name="radio" /></label>
+        <p><i>check in time</i></p>
+        <label>am<input type="radio" name="radio"></label>
+        <label>pm<input type="radio" name="radio"></label>
+        <p><i>Did you liked the service</i></p>
+        <label>yes<input type="radio" name="radio"></label>
+        <label>no<input type="radio" name="radio"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Service</legend>
+        <label>room was cleaned<input type="checkbox" name="Service"></label
+        <label> accessories provide<input type="checkbox" name="Service"></label><br>
+        <label>bedding was provided<input type="checkbox" name="Service"></label>
+    
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </form>
+  </body>
+</html>
